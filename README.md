@@ -40,6 +40,6 @@ select year,count(*) from car_dekho group by year having count(*)>100;
 -- 10)  The manager said to the employee all cars count details 2015  and 2023; we need a complete list.
 select count(*) from car_dekho where year  between 2015 and 2023 ; 
 
--- 11) The manager said to the employees  all cars details between  2015 and 2023 . we need a complete list.
+-- 11) The manager said to the employees  all cars details between  2015 and 2023. we need a complete list.
 select * from car_dekho where year between 2015 and 2023 ; 
 
